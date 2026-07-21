@@ -1,0 +1,19 @@
+AKRADI POSTERS - GITHUB UPLOAD ORDER
+
+Upload the small website files first:
+- index.html
+- styles.css
+- script.js
+
+Do NOT upload the large "posters" folder.
+
+Create/open the "thumbs" folder and upload ONE folder at a time:
+- football (41 files)
+- anime (41 files)
+- art-culture (41 files)
+- cars (42 files)
+- barber (26 files)
+
+Do not upload all folders in one drag-and-drop operation. Each folder has fewer
+than 50 files. The website uses these lightweight JPG files for the gallery and
+the full-screen preview.

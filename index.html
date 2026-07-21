@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#080808">
+  <title>Akradi Posters</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#top" aria-label="Akradi Posters home">
+      <span class="brand-name">AKR<span class="bolt">ϟ</span>DI</span>
+      <span class="brand-subtitle">POSTERS</span>
+    </a>
+    <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+    <nav class="nav" aria-label="Main navigation">
+      <a href="#collection">Collection</a>
+      <a href="https://www.instagram.com/akradi_posters/" target="_blank" rel="noreferrer">Instagram</a>
+      <a href="https://wa.me/212780873100" target="_blank" rel="noreferrer">WhatsApp</a>
+    </nav>
+  </header>
+
+  <main id="top">
+    <section class="collection" id="collection" aria-label="Poster collection">
+      <div class="ambient ambient--one"></div>
+      <div class="ambient ambient--two"></div>
+      <div class="filters" role="group" aria-label="Filter posters by category">
+        <button class="filter active" type="button" data-filter="all">All <sup>191</sup></button>
+        <button class="filter" type="button" data-filter="football">Football <sup>41</sup></button>
+        <button class="filter" type="button" data-filter="anime">Anime <sup>41</sup></button>
+        <button class="filter" type="button" data-filter="culture">Art &amp; Culture <sup>41</sup></button>
+        <button class="filter" type="button" data-filter="cars">Cars <sup>42</sup></button>
+        <button class="filter" type="button" data-filter="barber">Barber <sup>26</sup></button>
+      </div>
+      <div class="poster-grid" id="poster-grid"></div>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand brand--footer" href="#top">
+      <span class="brand-name">AKR<span class="bolt">ϟ</span>DI</span>
+      <span class="brand-subtitle">POSTERS</span>
+    </a>
+    <p>© <span id="year"></span> AKRADI POSTERS</p>
+    <a href="#top" class="back-top">BACK TO TOP ↑</a>
+  </footer>
+
+  <div class="lightbox" role="dialog" aria-modal="true" aria-label="Poster preview" hidden>
+    <button class="lightbox-close" type="button" aria-label="Close preview">×</button>
+    <button class="lightbox-arrow lightbox-prev" type="button" aria-label="Previous poster">←</button>
+    <img src="" alt="Selected poster preview">
+    <button class="lightbox-arrow lightbox-next" type="button" aria-label="Next poster">→</button>
+  </div>
+  <aside class="social-actions" aria-label="Contact Akradi Posters">
+    <a class="social-button social-button--instagram" href="https://www.instagram.com/akradi_posters/" target="_blank" rel="noreferrer" aria-label="Follow Akradi Posters on Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4.2"/><circle class="social-icon-dot" cx="17.4" cy="6.7" r="1"/></svg>
+      <span>Instagram</span>
+    </a>
+    <a class="social-button social-button--whatsapp" href="https://wa.me/212780873100?text=Salam%20Akradi%20Posters%2C%20bghit%20nsewel%20ela%20chi%20poster." target="_blank" rel="noreferrer" aria-label="Contact Akradi Posters on WhatsApp">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 11.7a8.5 8.5 0 0 1-12.6 7.5L3.5 20.5l1.3-4.2a8.5 8.5 0 1 1 15.7-4.6Z"/><path d="M8.2 7.8c.2-.4.4-.4.7-.4h.5c.2 0 .4.1.5.4l.8 2c.1.3.1.5-.1.7l-.6.8c-.2.2-.1.4 0 .6.7 1.2 1.7 2.2 3 2.8.2.1.4.1.6-.1l.8-1c.2-.2.4-.3.7-.2l1.9.9c.3.1.4.3.4.5 0 .5-.2 1.4-.7 1.8-.5.5-1.3.8-2.2.8-1.1 0-2.7-.5-4.5-2-2.2-1.8-3.5-4.2-3.6-5.8 0-.8.2-1.4.6-1.8.4-.4.8-.6 1.2-.6Z"/></svg>
+      <span>WhatsApp</span>
+    </a>
+  </aside>
+  <div class="cursor-glow" aria-hidden="true"></div>
+  <script src="script.js"></script>
+</body>
+</html>
