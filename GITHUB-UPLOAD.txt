@@ -13,6 +13,7 @@ Create/open the "thumbs" folder and upload ONE folder at a time:
 - art-culture (41 files)
 - cars (42 files)
 - barber (26 files)
+- rappers (35 files)
 
 Do not upload all folders in one drag-and-drop operation. Each folder has fewer
 than 50 files. The website uses these lightweight JPG files for the gallery and

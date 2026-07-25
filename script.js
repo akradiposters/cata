@@ -6,7 +6,8 @@ const categories = [
   { id: 'anime', folder: 'anime', label: 'Anime', count: 41 },
   { id: 'culture', folder: 'art-culture', label: 'Art & Culture', count: 41 },
   { id: 'cars', folder: 'cars', label: 'Cars', count: 42 },
-  { id: 'barber', folder: 'barber', label: 'Barber', count: 26 }
+  { id: 'barber', folder: 'barber', label: 'Barber', count: 26 },
+  { id: 'rappers', folder: 'rappers', label: 'Rappers', count: 35 }
 ];
 const posters = categories.flatMap(category =>
   Array.from({ length: category.count }, (_, index) => ({
